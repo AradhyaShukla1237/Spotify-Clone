@@ -1,25 +1,17 @@
-import Sidebar from './Sidebar';
-import Searchbar from './Searchbar';
-import SongCard from './SongCard';
-import TopPlay from './TopPlay';
-import ArtistCard from './ArtistCard';
-import DetailsHeader from './DetailsHeader';
-import SongBar from './SongBar';
-import RelatedSongs from './RelatedSongs';
-import MusicPlayer from './MusicPlayer';
-import Loader from './Loader';
-import Error from './Error';
+import Discover from './Discover';
+import TopArtists from './TopArtists';
+import ArtistDetails from './ArtistDetails';
+import SongDetails from './SongDetails';
+import Search from './Search';
+import TopCharts from './TopCharts';
+import AroundYou from './AroundYou';
 
 export {
-  TopPlay,
-  Sidebar,
-  SongCard,
-  Searchbar,
-  ArtistCard,
-  DetailsHeader,
-  SongBar,
-  RelatedSongs,
-  MusicPlayer,
-  Loader,
-  Error,
+  Discover,
+  Search,
+  TopArtists,
+  ArtistDetails,
+  SongDetails,
+  TopCharts,
+  AroundYou,
 };
